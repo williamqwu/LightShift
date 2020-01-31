@@ -1,0 +1,110 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+#lmx {
+    width: 300px;
+    height: 300px;
+    top: 15%;
+    left: 1%;
+    background-image: url("resources/lmx_front.PNG");
+    display: block;
+    position: absolute;
+}
+
+#wqh {
+    width: 300px;
+    height: 300px;
+    top: 55%;
+    left: 1%;
+    background-image: url("resources/wqh.PNG");
+    display: block;
+    position: absolute;
+}
+
+#status {
+    margin: auto;
+    width: 30%;
+    height: 50px;
+    border: 3px solid #73AD21;
+    position: absolute;
+    /* top: 870px; */
+    top: 90%;
+    left: 34.4%;
+    /* vertical-align: middle; */
+    text-align: center;
+    display: table-cell;
+    font-size: 200%;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#map {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid #000;
+    font-size: 0;
+}
+
+span {
+    display: inline-block;
+    /*color of the border*/
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+span.blank {
+    margin: 0;
+}
+
+span.wall {
+    background: rgb(85, 84, 84);
+}
+
+span.light1 {
+    background: rgb(251, 255, 0);
+}
+
+span.light2 {
+    background: rgb(255, 157, 0);
+}
+
+span.light3 {
+    background: red;
+}
+
+span.p1 {
+    /* width: 50px !important;
+    height: 50px !important;
+    display: block;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('lmx_front.jpg'); */
+    background: blue;
+}
+
+span.p2 {
+    background: rgb(0, 217, 255);
+}
+
+span.broken {
+    background: rgb(110, 6, 88);
+}
